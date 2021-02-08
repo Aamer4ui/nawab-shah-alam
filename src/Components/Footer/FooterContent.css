@@ -1,6 +1,6 @@
 .main-footer {
     color: white;
-    background-color: rgb(160, 15, 15);
+    background-color: #283747;
     padding-top: 3em;
     position: relative;
     bottom: 0;
@@ -11,8 +11,12 @@
   }
   .main-footer a{
       display: block;
+      color: gray;
   }
-  .list-unstyled a:hover{
-      color: black;
+  .col a:hover{
+      color: orangered;
       text-decoration: none;
+  }
+  .col-sm{
+      text-align: center;
   }

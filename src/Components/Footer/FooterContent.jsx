@@ -11,7 +11,7 @@ export const FooterContent = () => {
             <h4>
               <u>Quick Links</u>
             </h4>
-            <h6 className="list-unstyled">
+            <ul className="list-unstyled">
               <a href="">About NSAKCET</a>
               <a href="">Honorary Chairman</a>
               <a href="">Principle</a>
@@ -19,47 +19,55 @@ export const FooterContent = () => {
               <a href="">Application Form</a>
               <a href="">Solar Panel</a>
               <a href="">Login</a>
-            </h6>
+            </ul>
           </div>
 
           {/* Column2 */}
           <div className="col">
-            <h4>COURSES</h4>
-            <ui className="list-unstyled">
-              <a>UG Courses</a>
-              <a>Ug Courses</a>
-              <a>Polytechnic Courses</a>
-            </ui>
+            <h4>
+              <u>COURSES</u>
+            </h4>
+            <ul className="list-unstyled">
+              <a href="">UG Courses</a>
+              <a href="">Ug Courses</a>
+              <a href="">Polytechnic Courses</a>
+            </ul>
           </div>
 
           {/* Column3 */}
           <div className="col">
-            <h4>FACULTY</h4>
-            <ui className="list-unstyled">
-              <a>CSE</a>
-              <a>IT</a>
-              <a>CIVIL</a>
-              <a>ME</a>
-              <a>ECE</a>
-              <a>EEE</a>
-              <a>H & BS</a>
-            </ui>
+            <h4>
+              <u>FACULTY</u>
+            </h4>
+            <ul className="list-unstyled">
+              <a href="">CSE</a>
+              <a href="">IT</a>
+              <a href="">CIVIL</a>
+              <a href="">ME</a>
+              <a href="">ECE</a>
+              <a href="">EEE</a>
+              <a href="">H & BS</a>
+            </ul>
           </div>
 
           {/* Column 4 */}
           <div className="col">
-            <h4>FEATURES</h4>
-            <a>Laboratory</a>
-            <a>Library</a>
-            <a>Events</a>
-            <a>Placements</a>
-            <a>Sports & Games</a>
+            <h4>
+              <u>FEATURES</u>
+            </h4>
+            <a href="">Laboratory</a>
+            <a href="">Library</a>
+            <a href="">Events</a>
+            <a href="">Placements</a>
+            <a href="">Sports & Games</a>
           </div>
           {/* Column 5 */}
 
           <div className="col">
-            <h4>GET IN TOUCH</h4>
-            <ui className="list-unstyled">
+            <h4>
+              <u>GET IN TOUCH</u>
+            </h4>
+            <ul className="list-unstyled">
               <a>
                 <b>Add</b>: 16-4-1, New Malakpet, Near Railway Station,
                 Malakpet, Hyderabad, India
@@ -70,7 +78,7 @@ export const FooterContent = () => {
               <a>
                 <b>Email</b>: info@nsakcet.ac.in
               </a>
-            </ui>
+            </ul>
           </div>
         </div>
         <hr />
