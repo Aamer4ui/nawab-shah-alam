@@ -2,6 +2,7 @@ import React from "react";
 import "../BodyContent/TopBody.css";
 import { Carousel } from "react-bootstrap";
 import { SecondBodyContent } from "./SecondBody/SecondBodyContent";
+import { CardData } from "./CardContent/CardData";
 
 export const TopBody = () => {
   return (
@@ -22,8 +23,8 @@ export const TopBody = () => {
       </Carousel>
       {/* ---------------------Card With Animation--------------------------- */}
 
-      <SecondBodyContent/>
-     
+      <CardData />
+      <SecondBodyContent />
     </div>
   );
 };
