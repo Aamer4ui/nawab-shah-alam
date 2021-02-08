@@ -14,3 +14,17 @@
     color: black;
     font-weight: bold;
 }
+.content-header{
+    background-color: #283747;
+    color: white;
+}
+marquee{
+    overflow: hidden;
+    background-color: #283747;
+    color: white;
+    padding: 5px;
+    text-align: justify;
+}
+marquee:hover{
+    color: orangered;
+}

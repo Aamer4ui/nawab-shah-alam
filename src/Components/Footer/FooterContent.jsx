@@ -29,7 +29,7 @@ export const FooterContent = () => {
             </h4>
             <ul className="list-unstyled">
               <a href="">UG Courses</a>
-              <a href="">Ug Courses</a>
+              <a href="">PG Courses</a>
               <a href="">Polytechnic Courses</a>
             </ul>
           </div>
@@ -55,11 +55,13 @@ export const FooterContent = () => {
             <h4>
               <u>FEATURES</u>
             </h4>
-            <a href="">Laboratory</a>
-            <a href="">Library</a>
-            <a href="">Events</a>
-            <a href="">Placements</a>
-            <a href="">Sports & Games</a>
+            <ul className="list-unstyled">
+              <a href="">Laboratory</a>
+              <a href="">Library</a>
+              <a href="">Events</a>
+              <a href="">Placements</a>
+              <a href="">Sports & Games</a>
+            </ul>
           </div>
           {/* Column 5 */}
 
