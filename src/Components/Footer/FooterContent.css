@@ -6,3 +6,9 @@
     bottom: 0;
     width: 100%;
   }
+  a{
+      display: block;
+  }
+  .list-unstyled a:hover{
+      color: black;
+  }

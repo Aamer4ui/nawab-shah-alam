@@ -10,13 +10,13 @@ export const FooterContent = () => {
           <div className="col">
             <h4>Quick Links</h4>
             <h6 className="list-unstyled">
-              <li>About NSAKCET</li>
-              <li>Honorary Chairman</li>
-              <li>Principle</li>
-              <li>Photo Gallery</li>
-              <li>Application Form</li>
-              <li>Solar Panel</li>
-              <li>Login</li>
+              <a href="">About NSAKCET</a>
+              <a>Honorary Chairman</a>
+              <a>Principle</a>
+              <a>Photo Gallery</a>
+              <a>Application Form</a>
+              <a>Solar Panel</a>
+              <a>Login</a>
             </h6>
           </div>
 
@@ -24,9 +24,9 @@ export const FooterContent = () => {
           <div className="col">
             <h4>COURSES</h4>
             <ui className="list-unstyled">
-              <li>UG Courses</li>
-              <li>Ug Courses</li>
-              <li>Polytechnic Courses</li>
+              <a>UG Courses</a>
+              <a>Ug Courses</a>
+              <a>Polytechnic Courses</a>
             </ui>
           </div>
 
@@ -34,42 +34,40 @@ export const FooterContent = () => {
           <div className="col">
             <h4>FACULTY</h4>
             <ui className="list-unstyled">
-              <li>CSE</li>
-              <li>IT</li>
-              <li>CIVIL</li>
-              <li>ME</li>
-              <li>ECE</li>
-              <li>EEE</li>
-              <li>H & BS</li>
+              <a>CSE</a>
+              <a>IT</a>
+              <a>CIVIL</a>
+              <a>ME</a>
+              <a>ECE</a>
+              <a>EEE</a>
+              <a>H & BS</a>
             </ui>
           </div>
 
           {/* Column 4 */}
           <div className="col">
             <h4>FEATURES</h4>
-            <ui className="list-unstyled">
-              <li>Laboratory</li>
-              <li>Library</li>
-              <li>Events</li>
-              <li>Placements</li>
-              <li>Sports & Games</li>
-            </ui>
+            <a>Laboratory</a>
+            <a>Library</a>
+            <a>Events</a>
+            <a>Placements</a>
+            <a>Sports & Games</a>
           </div>
           {/* Column 5 */}
 
           <div className="col">
             <h4>GET IN TOUCH</h4>
             <ui className="list-unstyled">
-              <li>
+              <a>
                 <b>Add</b>: 16-4-1, New Malakpet, Near Railway Station,
                 Malakpet, Hyderabad, India
-              </li>
-              <li>
+              </a>
+              <a>
                 <b>Tel</b>:040-24561118, 24066894
-              </li>
-              <li>
+              </a>
+              <a>
                 <b>Email</b>:info@nsakcet.ac.in
-              </li>
+              </a>
             </ui>
           </div>
         </div>
