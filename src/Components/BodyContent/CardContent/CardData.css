@@ -1,0 +1,10 @@
+.college-details{
+    display: flex;
+    margin: 3rem;
+
+}
+.content{
+    margin: 50px auto auto;
+    width: 100%;
+    display: flex;
+}
