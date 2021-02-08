@@ -1,0 +1,8 @@
+.secondnav{
+    margin-left:20px ;
+    font-size: 16px;
+    color: black !important;
+}
+.secondnav:hover{
+    color: orangered !important;
+}
