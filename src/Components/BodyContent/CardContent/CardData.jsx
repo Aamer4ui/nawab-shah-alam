@@ -46,9 +46,9 @@ export const CardData = () => {
 
       {/* ----------------Fouth Card------------------ */}
       <Card className="content" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="card3.jpg" />
+        <Card.Img variant="top" src="card5.jpg" />
         <Card.Body>
-          <Card.Title>Computer Labs</Card.Title>
+          <Card.Title>Class Room's</Card.Title>
           <Card.Text>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
