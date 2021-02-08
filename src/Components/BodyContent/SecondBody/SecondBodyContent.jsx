@@ -3,12 +3,13 @@ import "../SecondBody/SecondBodyContent.css";
 
 export const SecondBodyContent = () => {
   return (
-    <div class="wrap">
-      <div class="title">
+    <div className="wrap">
+      {/* ------------Card 1-------------- */}
+      <div className="title">
         <img src="image1.jpg" />
-        <div class="text">
+        <div className="text">
           <h3>Nawab Shah Alam</h3>
-          <p class="para">
+          <p className="para">
             This institution has been established under the aegis of
             MADARSA-I-AIZZA, a registered educational society registered on 28th
             December 1961 under the Hyderabad societies registration Act No. 1
@@ -17,11 +18,13 @@ export const SecondBodyContent = () => {
         </div>
       </div>
 
-      <div class="title">
+      {/* ---------------Card 2------------------- */}
+
+      <div className="title">
         <img src="image2.jpg" />
-        <div class="text">
+        <div className="text">
           <h3>Price Distribution</h3>
-          <p class="para">
+          <p className="para">
             Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta
             bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto
             kevin turducken."
@@ -29,11 +32,13 @@ export const SecondBodyContent = () => {
         </div>
       </div>
 
-      <div class="title">
+      {/* -------------------Card3----------------------- */}
+
+      <div className="title">
         <img src="image3.jpg" />
-        <div class="text">
+        <div className="text">
           <h3>Exibition</h3>
-          <p class="para">
+          <p className="para">
             Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta
             bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto
             kevin turducken.
