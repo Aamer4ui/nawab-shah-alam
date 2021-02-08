@@ -5,7 +5,10 @@ import { Carousel } from "react-bootstrap";
 export const TopBody = () => {
   return (
     <div>
-      <Carousel>
+      <marquee className="marquee-content" behavior="" direction="">
+        Nawab Shah Alam Khan
+      </marquee>
+      <Carousel className="slider">
         <Carousel.Item>
           <img className="d-block" src="1.jpg" alt="" />
         </Carousel.Item>
@@ -16,7 +19,7 @@ export const TopBody = () => {
           <img className="d-block" src="3jpg.jpg" alt="" />
         </Carousel.Item>
       </Carousel>
-      <p>
+      <p className="body-para">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde enim
         temporibus excepturi laboriosam reiciendis hic nulla facilis velit qui
         illum, repellat obcaecati aperiam nostrum dolore tempora explicabo!

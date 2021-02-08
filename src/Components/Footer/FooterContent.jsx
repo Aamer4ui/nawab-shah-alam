@@ -8,15 +8,17 @@ export const FooterContent = () => {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-            <h4>Quick Links</h4>
+            <h4>
+              <u>Quick Links</u>
+            </h4>
             <h6 className="list-unstyled">
               <a href="">About NSAKCET</a>
-              <a>Honorary Chairman</a>
-              <a>Principle</a>
-              <a>Photo Gallery</a>
-              <a>Application Form</a>
-              <a>Solar Panel</a>
-              <a>Login</a>
+              <a href="">Honorary Chairman</a>
+              <a href="">Principle</a>
+              <a href="">Photo Gallery</a>
+              <a href="">Application Form</a>
+              <a href="">Solar Panel</a>
+              <a href="">Login</a>
             </h6>
           </div>
 
@@ -63,10 +65,10 @@ export const FooterContent = () => {
                 Malakpet, Hyderabad, India
               </a>
               <a>
-                <b>Tel</b>:040-24561118, 24066894
+                <b>Tel</b>: 040-24561118, 24066894
               </a>
               <a>
-                <b>Email</b>:info@nsakcet.ac.in
+                <b>Email</b>: info@nsakcet.ac.in
               </a>
             </ui>
           </div>

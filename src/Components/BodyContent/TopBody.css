@@ -1,3 +1,13 @@
 .d-block{
-    width: 1500px;
+    width: 1520px;
+}
+.body-para{
+    margin: 10px;
+    text-align: justify;
+}
+.marquee-content{
+    background-color: gray;
+    color: black;
+    margin-bottom: 0;
+
 }
