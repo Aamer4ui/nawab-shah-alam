@@ -3,7 +3,7 @@ import "../HeaderLogo/IconContent.css";
 
 export const IconContent = () => {
   return (
-    <div>
+    <div className="sticky">
       <a href=" " className="logo">
         <img src="nawab.png" alt="" />
       </a>

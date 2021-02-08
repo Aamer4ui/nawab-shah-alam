@@ -6,11 +6,9 @@ import { SecondBar } from "./SecondNavigation/SecondBar";
 export const HeaderContent = () => {
   return (
     <div>
-      <header>
-        <NavigationBar />
-        <IconContent />
-        <SecondBar />
-      </header>
+      <NavigationBar />
+      <IconContent />
+      <SecondBar />
     </div>
   );
 };
