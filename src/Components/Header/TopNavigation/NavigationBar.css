@@ -1,8 +1,14 @@
 .navclass{
-    color:black;
+    color:white;
     font-size: 12px; 
     font-weight:bold;
+    
 }
 .navclass:hover{
-    color: orangered;
+    color: black;
+}
+.justify-content-center{
+    background-color: rgb(160, 15, 15);
+    position: sticky;
+    top: 0;
 }
