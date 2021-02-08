@@ -37,7 +37,7 @@ export const SecondBodyContent = () => {
       <div className="title">
         <img src="image3.jpg" />
         <div className="text">
-          <h3>Exibition</h3>
+          <h3>Technical Exibition</h3>
           <p className="para">
             Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta
             bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto
