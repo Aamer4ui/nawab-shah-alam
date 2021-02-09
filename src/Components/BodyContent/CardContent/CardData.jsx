@@ -5,6 +5,8 @@ import { Card } from "react-bootstrap";
 export const CardData = () => {
   return (
     <div className="college-details">
+      
+      {/* ---------------First Card---------------- */}
       <Card className="content" style={{ width: "18rem" }}>
         <Card.Img variant="top" src="card4.jpg" />
         <Card.Body>

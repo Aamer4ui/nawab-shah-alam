@@ -31,7 +31,6 @@ export const NavigationBar = () => {
           <Nav.Link className="navclass">IQAC</Nav.Link>
         </Nav.Item>
       </Nav>
-
       <hr />
     </div>
   );
