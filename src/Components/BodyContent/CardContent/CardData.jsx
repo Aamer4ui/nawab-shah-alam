@@ -57,6 +57,8 @@ export const CardData = () => {
         </Card.Body>
       </Card>
 
+      {/* --------------------Latest News----------------------- */}
+
       <Card className="content" border="light" style={{ width: "18rem" }}>
         <Card.Header className="content-header">Latest News</Card.Header>
         <Card.Body>

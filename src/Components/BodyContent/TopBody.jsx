@@ -7,9 +7,13 @@ import { CardData } from "./CardContent/CardData";
 export const TopBody = () => {
   return (
     <div>
+
+      {/* ----------------------Marqueee----------------------------------- */}
       <marquee className="marquee-content" behavior="" direction="">
         Nawab Shah Alam Khan
       </marquee>
+
+      {/* ------------------------Carousel------------------------------------- */}
       <Carousel className="slider">
         <Carousel.Item>
           <img className="d-block" src="1.jpg" alt="" />
@@ -21,6 +25,7 @@ export const TopBody = () => {
           <img className="d-block" src="3jpg.jpg" alt="" />
         </Carousel.Item>
       </Carousel>
+      
       {/* ---------------------Card With Animation--------------------------- */}
 
       <CardData />
