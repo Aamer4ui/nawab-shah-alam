@@ -1,13 +1,11 @@
 .d-block{
     width: 1520px;
 }
-.body-para{
-    margin: 10px;
-    text-align: justify;
-}
 .marquee-content{
     background-color: #283747;
     color: white;
-    margin-bottom: 0;
 
+}
+.slider{
+    margin-top: 0;
 }
