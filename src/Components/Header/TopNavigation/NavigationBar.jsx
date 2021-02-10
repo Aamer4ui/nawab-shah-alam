@@ -43,6 +43,10 @@ export const NavigationBar = () => {
         <h2 className="sub-heading">
           <u>Collge Of Engineering & Technology</u>
         </h2>
+        <h6 className="sub-heading1">
+          <b>BE:</b> CE,ME,EEE,ECE,IT <b>-ME:</b> CSE, Embedded Syd, Structural,
+          HVAC <b>-Polytechnice:</b> CE,ME,EEE,ECE
+        </h6>
         <br />
         {/* ------------------main Nav------------------------ */}
         <Navbar className="second-bar" expand="lg">

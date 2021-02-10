@@ -27,6 +27,7 @@
     color: rgb(161, 13, 13);
     text-align: center;
     margin: 0;
+    font-size: 50px;
 }
 .main-logo{
     height: 100px;
@@ -34,10 +35,19 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1;
+}
 .sub-heading{
     text-align: center;
     margin-top: 0 !important;
-    font-size: 23px;
+    font-size: 25px;
+}
+.sub-heading1{
+    text-align: center;
+    font-size: 8px;
 }
 
 /* -------------------second Navigation----------------- */
