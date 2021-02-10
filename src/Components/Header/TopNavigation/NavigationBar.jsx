@@ -34,54 +34,56 @@ export const NavigationBar = () => {
         </Nav>
         <hr />
         {/* ------------------logos---------------------- */}
-        <a href=""><img src="" alt=""/></a>
-        <h1 className="logo">NAWAB SHAH ALAM</h1>
+        <h1 className="logo">
+          <img className="main-logo" src="logo1.jpg" alt="" />
+          NAWAB SHAH ALAM
+        </h1>
         <div className="sub-heading"> Collge Of Engineering & Technology</div>
+        <br />
         {/* ------------------main Nav------------------------ */}
-        <Navbar className="second-bar"  expand="lg">
+        <Navbar className="second-bar" expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link className="secondnav" href="#">
-              HOME
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              COURSES
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              DEPARTMENT
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              ADMISSIONS
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              PLACEMENTS
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              FEATURES
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              EVENTS
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              GALLERY
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              EXAMINATION CELL
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              R & D CELL
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              ABOUT US
-            </Nav.Link>
-            <Nav.Link className="secondnav" href="#">
-              CONTACT US
-            </Nav.Link>
-          </Nav>
+            <Nav className="mr-auto">
+              <Nav.Link className="secondnav" href="#">
+                HOME
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                COURSES
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                DEPARTMENT
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                ADMISSIONS
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                PLACEMENTS
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                FEATURES
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                EVENTS
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                GALLERY
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                EXAMINATION CELL
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                R & D CELL
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                ABOUT US
+              </Nav.Link>
+              <Nav.Link className="secondnav" href="#">
+                CONTACT US
+              </Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
-       
       </header>
     </div>
   );
