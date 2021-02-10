@@ -5,7 +5,6 @@ import { Card } from "react-bootstrap";
 export const CardData = () => {
   return (
     <div className="college-details">
-      
       {/* ---------------First Card---------------- */}
       <Card className="content" style={{ width: "18rem" }}>
         <Card.Img variant="top" src="card4.jpg" />
@@ -47,7 +46,7 @@ export const CardData = () => {
       </Card>
 
       {/* ----------------Fouth Card------------------ */}
-      <Card className="content" style={{ width: "18rem" }}>
+      {/* <Card className="content" style={{ width: "18rem" }}>
         <Card.Img variant="top" src="card5.jpg" />
         <Card.Body>
           <Card.Title>Class Room's</Card.Title>
@@ -57,7 +56,7 @@ export const CardData = () => {
           </Card.Text>
           <a href="">See More..</a>
         </Card.Body>
-      </Card>
+      </Card> */}
 
       {/* --------------------Latest News----------------------- */}
 
