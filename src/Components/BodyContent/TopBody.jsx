@@ -7,11 +7,10 @@ import { CardData } from "./CardContent/CardData";
 export const TopBody = () => {
   return (
     <div>
-
       {/* ----------------------Marqueee----------------------------------- */}
-      <marquee className="marquee-content" behavior="" direction="">
+      {/* <marquee className="marquee-content" behavior="" direction="">
         Nawab Shah Alam Khan
-      </marquee>
+      </marquee> */}
 
       {/* ------------------------Carousel------------------------------------- */}
       <Carousel className="slider">

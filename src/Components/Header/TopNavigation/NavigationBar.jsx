@@ -5,7 +5,7 @@ import "../TopNavigation/NavigationBar.css";
 export const NavigationBar = () => {
   return (
     <div>
-      <header className="main_header">
+      <header className="container-fluid">
         <Nav className="justify-content-center">
           <Nav.Item>
             <Nav.Link className="navclass">AICTE Approvals</Nav.Link>
@@ -33,12 +33,10 @@ export const NavigationBar = () => {
           </Nav.Item>
         </Nav>
         <hr />
-
         {/* ------------------logos---------------------- */}
         <h1 className="logo">NAWAB SHAH ALAM</h1>
-
+        <div className="sub-heading"> Collge Of Engineering & Technlogies</div>
         {/* ------------------main Nav------------------------ */}
-
         <Navbar className="second-bar" collapseOnSelect expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Nav>

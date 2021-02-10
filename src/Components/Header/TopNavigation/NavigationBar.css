@@ -1,7 +1,11 @@
-#main_header {
-    z-index: 99;
-    position: relative;
-    display: block;
+.container-fluid {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    background-color: white;
+    padding: 0;
 }
 .navclass{
     color:white;
@@ -15,16 +19,20 @@
 .justify-content-center{
     background-color: #283747;
     margin-bottom: 0;
-    position: -webkit-sticky;
-position: sticky;
-top: 0;
+    width: 100%;
 }
 
 /* -----------Logos--------------------- */
 .logo{
     color: red;
     text-align: center;
+    margin: 0;
 
+}
+.sub-heading{
+    text-align: center;
+    margin-top: 0;
+    font-size: 25px;
 }
 
 /* -------------------second Navigation----------------- */
