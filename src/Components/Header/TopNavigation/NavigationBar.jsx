@@ -37,9 +37,10 @@ export const NavigationBar = () => {
         <h1 className="logo">NAWAB SHAH ALAM</h1>
         <div className="sub-heading"> Collge Of Engineering & Technology</div>
         {/* ------------------main Nav------------------------ */}
-        <Navbar className="second-bar" collapseOnSelect expand="lg">
+        <Navbar className="second-bar"  expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Nav>
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
             <Nav.Link className="secondnav" href="#">
               HOME
             </Nav.Link>
@@ -77,7 +78,9 @@ export const NavigationBar = () => {
               CONTACT US
             </Nav.Link>
           </Nav>
+          </Navbar.Collapse>
         </Navbar>
+       
       </header>
     </div>
   );
