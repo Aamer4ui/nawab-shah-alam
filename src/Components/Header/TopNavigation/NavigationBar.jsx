@@ -35,10 +35,14 @@ export const NavigationBar = () => {
         <hr />
         {/* ------------------logos---------------------- */}
         <h1 className="logo">
-          <img className="main-logo" src="logo1.jpg" alt="" />
+          <a href="">
+            <img className="main-logo" src="logo1.jpg" alt="" />
+          </a>
           NAWAB SHAH ALAM
         </h1>
-        <div className="sub-heading"> Collge Of Engineering & Technology</div>
+        <h2 className="sub-heading">
+          <u>Collge Of Engineering & Technology</u>
+        </h2>
         <br />
         {/* ------------------main Nav------------------------ */}
         <Navbar className="second-bar" expand="lg">

@@ -71,7 +71,7 @@ export const CardData = () => {
           >
             Mohammad Shoaib Mohiuddin from B.tech 1st year has successfully
             achieved Gold Medal representing India against Japanese.
-            <hr />
+            <hr style={{ color: "white" }} />
           </marquee>
         </Card.Body>
       </Card>
