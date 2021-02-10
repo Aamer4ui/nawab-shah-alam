@@ -35,7 +35,7 @@ export const NavigationBar = () => {
         <hr />
         {/* ------------------logos---------------------- */}
         <h1 className="logo">NAWAB SHAH ALAM</h1>
-        <div className="sub-heading"> Collge Of Engineering & Technlogies</div>
+        <div className="sub-heading"> Collge Of Engineering & Technology</div>
         {/* ------------------main Nav------------------------ */}
         <Navbar className="second-bar" collapseOnSelect expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

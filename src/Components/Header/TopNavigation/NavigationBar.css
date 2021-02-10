@@ -1,6 +1,6 @@
 .container-fluid {
     z-index: 1;
-    position: sticky;
+    position: -webkit-sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 0 20px black;
@@ -24,15 +24,16 @@
 
 /* -----------Logos--------------------- */
 .logo{
-    color: red;
+    color: #283747;
     text-align: center;
     margin: 0;
+    
 
 }
 .sub-heading{
     text-align: center;
     margin-top: 0;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 /* -------------------second Navigation----------------- */
