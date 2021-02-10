@@ -1,6 +1,6 @@
 .container-fluid {
     z-index: 1;
-    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 0 20px black;

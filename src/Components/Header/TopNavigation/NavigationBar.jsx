@@ -34,6 +34,7 @@ export const NavigationBar = () => {
         </Nav>
         <hr />
         {/* ------------------logos---------------------- */}
+        <a href=""><img src="" alt=""/></a>
         <h1 className="logo">NAWAB SHAH ALAM</h1>
         <div className="sub-heading"> Collge Of Engineering & Technology</div>
         {/* ------------------main Nav------------------------ */}

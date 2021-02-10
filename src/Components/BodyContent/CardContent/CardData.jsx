@@ -70,9 +70,7 @@ export const CardData = () => {
             onmouseout={"this.start();"}
           >
             Mohammad Shoaib Mohiuddin from B.tech 1st year has successfully
-            achieved Gold Medal representing India against Japanese counterparts
-            under category 46 kilo @ 1st International Beach Combat Games held
-            in Goa, India.
+            achieved Gold Medal representing India against Japanese.
             <hr />
           </marquee>
         </Card.Body>
