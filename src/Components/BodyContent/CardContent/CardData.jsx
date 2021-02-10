@@ -66,8 +66,8 @@ export const CardData = () => {
           <marquee
             behavior="scroll"
             direction="up"
-            onMouseOver="this.stop();"
-            onMouseOut="this.start();"
+            onmouseover={"this.stop();"}
+            onmouseout={"this.start();"}
           >
             Mohammad Shoaib Mohiuddin from B.tech 1st year has successfully
             achieved Gold Medal representing India against Japanese counterparts

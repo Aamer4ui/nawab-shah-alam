@@ -1,12 +1,12 @@
 import React from "react";
+import { NavigationBar } from "../Header/TopNavigation/NavigationBar";
 import { TopBody } from "../BodyContent/TopBody";
 import { FooterContent } from "../Footer/FooterContent";
-import { HeaderContent } from "../Header/HeaderContent";
 
 export const Landing = () => {
   return (
     <div>
-      <HeaderContent />
+      <NavigationBar />
       <TopBody />
       <FooterContent />
     </div>

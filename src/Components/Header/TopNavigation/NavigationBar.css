@@ -1,3 +1,8 @@
+#main_header {
+    z-index: 99;
+    position: relative;
+    display: block;
+}
 .navclass{
     color:white;
     font-size: 12px; 
@@ -10,4 +15,25 @@
 .justify-content-center{
     background-color: #283747;
     margin-bottom: 0;
+    position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+
+/* -----------Logos--------------------- */
+.logo{
+    color: red;
+    text-align: center;
+
+}
+
+/* -------------------second Navigation----------------- */
+
+.secondnav{
+    margin-left:20px ;
+    font-size: 16px;
+    color: black !important;
+}
+.secondnav:hover{
+    color: orangered !important;
 }
