@@ -20,6 +20,12 @@ export const NavigationBar = () => {
             <Nav.Link className="navclass">Grievence Redressel cell</Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link className="navclass">NSAKCET News Blog</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link className="navclass">Campus Placement</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link className="navclass">Student corner</Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -30,6 +36,12 @@ export const NavigationBar = () => {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link className="navclass">IQAC</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link className="navclass">Online Fee Payment</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link className="navclass">EAMCET & JEE Mock Test</Nav.Link>
           </Nav.Item>
         </Nav>
         <hr />
@@ -44,9 +56,17 @@ export const NavigationBar = () => {
           <u>Collge Of Engineering & Technology</u>
         </h2>
         <h6 className="sub-heading1">
-          <b>BE:</b> CE,ME,EEE,ECE,IT <b>-ME:</b> CSE, Embedded Syd, Structural,
-          HVAC <b>-Polytechnice:</b> CE,ME,EEE,ECE
+          <u>
+            <b>BE:</b> CE,ME,EEE,ECE,IT <b>-ME:</b> CSE, Embedded Syd,
+            Structural, HVAC <b>-Polytechnice:</b> CE,ME,EEE,ECE
+          </u>
         </h6>
+        <h5 className="sub-heading2">
+          <u>
+            Approved by AICTE | Affliliated to OU | Accredited to NACC |
+            Permitted by Govt. of TS | Included in 2F UGC
+          </u>
+        </h5>
         <br />
         {/* ------------------main Nav------------------------ */}
         <Navbar className="second-bar" expand="lg">

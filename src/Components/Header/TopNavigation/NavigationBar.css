@@ -30,7 +30,7 @@
     font-size: 50px;
 }
 .main-logo{
-    height: 100px;
+    height: 120px;
     float: left;
     margin: 0;
     padding: 0;
@@ -42,12 +42,17 @@ h1,h2,h3,h4,h5,h6{
 }
 .sub-heading{
     text-align: center;
-    margin-top: 0 !important;
-    font-size: 25px;
+    font-size: 29px;
+    
 }
 .sub-heading1{
     text-align: center;
-    font-size: 8px;
+    font-size: 11px;
+}
+.sub-heading2{
+    text-align: center;
+    font-size:10px ;
+    margin-left: 117px;
 }
 
 /* -------------------second Navigation----------------- */
