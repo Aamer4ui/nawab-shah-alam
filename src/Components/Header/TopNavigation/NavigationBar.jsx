@@ -5,7 +5,7 @@ import "../TopNavigation/NavigationBar.css";
 export const NavigationBar = () => {
   const [show, handleShow] = useState(false);
   const transitionNavbar = () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 100) {
       handleShow(true);
     } else handleShow(false);
   };
@@ -77,7 +77,6 @@ export const NavigationBar = () => {
             Permitted by Govt. of TS | Included in 2F UGC
           </u>
         </h5>
-        <br />
         {/* ------------------main Nav------------------------ */}
         <Navbar className="second-bar" expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

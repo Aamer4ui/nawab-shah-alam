@@ -1,6 +1,6 @@
 .container-fluid {
     z-index: 1;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 0 20px black;
@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1;
 }
 .main-logo{
-    height: 110px;
+    height: 100px;
     float: left;
     margin-left: 20px;
     padding: 0;

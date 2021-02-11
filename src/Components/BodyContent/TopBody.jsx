@@ -24,7 +24,7 @@ export const TopBody = () => {
           <img className="d-block" src="3jpg.jpg" alt="" />
         </Carousel.Item>
       </Carousel>
-      
+
       {/* ---------------------Card With Animation--------------------------- */}
 
       <CardData />
