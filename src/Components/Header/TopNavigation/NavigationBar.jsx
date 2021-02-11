@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "../TopNavigation/NavigationBar.css";
 
 export const NavigationBar = () => {
+  const [show, handleShow] = useState(false);
+  const transitionNavbar = () => {
+    if (window.scrollY > 0) {
+      handleShow(true);
+    } else handleShow(false);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", transitionNavbar);
+    return () => window.addEventListener("scroll", transitionNavbar);
+  }, []);
   return (
     <div>
-      <header className="container-fluid">
+      <header className={`container-fluid ${show && "header-sticky"}`}>
         <Nav className="justify-content-center">
           <Nav.Item>
             <Nav.Link className="navclass">AICTE Approvals</Nav.Link>
@@ -53,7 +63,7 @@ export const NavigationBar = () => {
           NAWAB SHAH ALAM
         </h1>
         <h2 className="sub-heading">
-          <u>Collge Of Engineering & Technology</u>
+          <u>College Of Engineering & Technology</u>
         </h2>
         <h6 className="sub-heading1">
           <u>
