@@ -83,7 +83,7 @@ export const NavigationBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link className="secondnav" href="/topbody">
+              <Nav.Link className="secondnav" href="/">
                 HOME
               </Nav.Link>
               <Nav.Link className="secondnav" href="#">

@@ -7,6 +7,8 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import { TopBody } from "../BodyContent/TopBody";
+import { FooterContent } from "../Footer/FooterContent";
 
 export const RoutingComp = () => {
   return (
@@ -17,8 +19,12 @@ export const RoutingComp = () => {
           <Route path="/about">
             <ParentAbout />
           </Route>
+          <Route path="/">
+            <TopBody />
+          </Route>
         </Switch>
       </Router>
+      <FooterContent/>
     </div>
   );
 };

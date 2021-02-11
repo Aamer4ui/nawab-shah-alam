@@ -15,6 +15,7 @@
     color:white;
     font-size: 12px; 
     font-weight:bold;
+
     
 }
 .navclass:hover{
@@ -34,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1;
 }
 .main-logo{
-    height: 100px;
+    height: 90px;
     float: left;
     margin-left: 20px;
     padding: 0;
@@ -71,6 +72,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     color: black !important;
     margin-top: 0;
+    
 }
 .secondnav:hover{
     color: orangered !important;
