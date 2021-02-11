@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
+
 import "../TopNavigation/NavigationBar.css";
 
 export const NavigationBar = () => {
@@ -82,7 +83,7 @@ export const NavigationBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/topbody">
                 HOME
               </Nav.Link>
               <Nav.Link className="secondnav" href="#">
@@ -112,7 +113,7 @@ export const NavigationBar = () => {
               <Nav.Link className="secondnav" href="#">
                 R & D CELL
               </Nav.Link>
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/about">
                 ABOUT US
               </Nav.Link>
               <Nav.Link className="secondnav" href="#">
