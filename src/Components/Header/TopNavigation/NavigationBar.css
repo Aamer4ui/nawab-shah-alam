@@ -23,23 +23,27 @@
 }
 
 /* -----------Logos--------------------- */
-.logo{
-    color: rgb(161, 13, 13);
-    text-align: center;
-    margin: 0;
-    font-size: 50px;
-}
-.main-logo{
-    height: 120px;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
+
 h1,h2,h3,h4,h5,h6{
     margin-bottom: .5rem;
     font-weight: 700;
     line-height: 1;
 }
+.main-logo{
+    height: 120px;
+    float: left;
+    margin-left: 20px;
+    padding: 0;
+    box-shadow: 0 0 10px black;
+    border-radius: 50%;
+}
+.logo{
+    color: rgb(252, 228, 16);
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+
 .sub-heading{
     text-align: center;
     font-size: 29px;
@@ -51,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .sub-heading2{
     text-align: center;
-    font-size:10px ;
+    font-size:9px ;
     margin-left: 117px;
 }
 
