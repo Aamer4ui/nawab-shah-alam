@@ -1,6 +1,6 @@
 import React from "react";
 import { NavigationBar } from "../Header/TopNavigation/NavigationBar";
-import { ParentAbout } from "../Header/NavigationC/ParentAbout";
+
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
 import { MainBody } from "../D-MainBody/MainBody";
 import {
@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import { TopBody } from "../BodyContent/TopBody";
 import { FooterContent } from "../Footer/FooterContent";
+import RightNevigation from "../AboutUs/C-RightNevigation/RightNevigation";
 
 export const RoutingComp = () => {
   return (
@@ -19,14 +20,14 @@ export const RoutingComp = () => {
 
       <Router>
         <Switch>
-          <Route path="/about">
-            <ParentAbout />
-          </Route>
-           <Route path="/CSEBTECH">
+          <Route path="/CSEBTECH">
             <UGCoursesDetails />
-          </Route> 
+          </Route>
           <Route path="/AboutPlacement">
             <MainBody />
+          </Route>
+          <Route path="/about">
+            <RightNevigation />
           </Route>
           <Route path="/">
             <TopBody />
