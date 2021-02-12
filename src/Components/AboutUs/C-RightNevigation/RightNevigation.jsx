@@ -1,5 +1,6 @@
 import React from "react";
 import { ListGroup } from "react-bootstrap";
+import AbMainBody from "../D-MainBody/AbMainBody";
 import "./RightNevigation.css";
 
 const RightNevigation = () => {
@@ -60,6 +61,7 @@ const RightNevigation = () => {
           </ListGroup.Item>
         </ListGroup>
       </div>
+      <AbMainBody />
     </div>
   );
 };
