@@ -4,19 +4,20 @@ import { Nav, Navbar } from "react-bootstrap";
 import "../TopNavigation/NavigationBar.css";
 
 export const NavigationBar = () => {
-  const [show, handleShow] = useState(false);
-  const transitionNavbar = () => {
-    if (window.scrollY > 100) {
-      handleShow(true);
-    } else handleShow(false);
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", transitionNavbar);
-    return () => window.addEventListener("scroll", transitionNavbar);
-  }, []);
+  // const [show, handleShow] = useState(false);
+  // const transitionNavbar = () => {
+  //   if (window.scrollY > 100) {
+  //     handleShow(true);
+  //   } else handleShow(false);
+  // };
+  // useEffect(() => {
+  //   window.addEventListener("scroll", transitionNavbar);
+  //   return () => window.addEventListener("scroll", transitionNavbar);
+  // }, []);
   return (
     <div>
-      <header className={`container-fluid ${show && "header-sticky"}`}>
+      {/* <header className={`container-fluid ${show && "header-sticky"}`}> */}
+      <header className="container-fluid">
         <Nav className="justify-content-center">
           <Nav.Item>
             <Nav.Link className="navclass">AICTE Approvals</Nav.Link>
@@ -86,7 +87,7 @@ export const NavigationBar = () => {
               <Nav.Link className="secondnav" href="/">
                 HOME
               </Nav.Link>
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/CSEBTECH">
                 COURSES
               </Nav.Link>
               <Nav.Link className="secondnav" href="#">
@@ -95,7 +96,7 @@ export const NavigationBar = () => {
               <Nav.Link className="secondnav" href="#">
                 ADMISSIONS
               </Nav.Link>
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/AboutPlacement">
                 PLACEMENTS
               </Nav.Link>
               <Nav.Link className="secondnav" href="#">

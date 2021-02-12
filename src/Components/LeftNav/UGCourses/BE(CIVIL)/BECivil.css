@@ -1,0 +1,38 @@
+.headerclass{
+    text-align: left;
+    color: #EE7C7C;
+    
+    border-bottom: groove;
+    
+}
+
+.cseimage{
+    justify-content: left;
+    margin-right: 150px;
+}
+p{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+.heading-four{
+    background-color: #EE7C7C;
+    color: white;
+    
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+ul{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+h5{
+    text-align: left;
+    margin-top: 5px;
+}

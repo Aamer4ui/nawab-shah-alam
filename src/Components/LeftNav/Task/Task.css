@@ -1,0 +1,13 @@
+.taskbutton{
+    background-color: #EE7C7C;
+    border:none;
+    margin: 10px;
+    float: left;
+    outline: none;
+    color: white;
+}
+.taskbutton:hover{
+    color:none;
+    background-color: #B91818;
+    box-shadow: none !important;
+}

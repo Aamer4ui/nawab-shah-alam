@@ -6,8 +6,10 @@
     bottom: 0;
     width: 100%;
   }
-  h4{
+  .footer-head{
       margin-bottom: 20px;
+      background-color: #283747;
+      
   }
   .main-footer a{
       display: block;

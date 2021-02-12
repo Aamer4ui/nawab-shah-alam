@@ -8,7 +8,7 @@ export const FooterContent = () => {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-            <h4>
+            <h4 className="footer-head">
               <u>Quick Links</u>
             </h4>
             <ul className="list-unstyled">
@@ -24,7 +24,7 @@ export const FooterContent = () => {
 
           {/* Column2 */}
           <div className="col">
-            <h4>
+            <h4 className="footer-head">
               <u>COURSES</u>
             </h4>
             <ul className="list-unstyled">
@@ -36,7 +36,7 @@ export const FooterContent = () => {
 
           {/* Column3 */}
           <div className="col">
-            <h4>
+            <h4 className="footer-head">
               <u>FACULTY</u>
             </h4>
             <ul className="list-unstyled">
@@ -52,7 +52,7 @@ export const FooterContent = () => {
 
           {/* Column 4 */}
           <div className="col">
-            <h4>
+            <h4 className="footer-head">
               <u>FEATURES</u>
             </h4>
             <ul className="list-unstyled">
@@ -66,7 +66,7 @@ export const FooterContent = () => {
           {/* Column 5 */}
 
           <div className="col">
-            <h4>
+            <h4 className="footer-head">
               <u>GET IN TOUCH</u>
             </h4>
             <ul className="list-unstyled">

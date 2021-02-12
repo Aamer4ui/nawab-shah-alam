@@ -1,0 +1,49 @@
+.headerclass{
+    text-align: left;
+    color: black;
+    
+    border-bottom: groove;
+    
+}
+
+.cseimage{
+    justify-content: left;
+    margin-right: 150px;
+}
+p{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+.heading-four{
+    background-color: #EE7C7C;
+    color: white;
+    
+    text-align: left;
+    
+}
+ul{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+.buttonclass{
+font-size: 12px !important;
+height: 45px;
+float: left;
+margin-left: 20px;
+margin-top: 20px;
+border: none;
+background-color: #EE7C7C;
+}
+.buttonclass:hover{
+    
+    background-color:#B91818 !important;
+}
+
+/* .h3:hover{
+    background-color:#EE7C7C ;
+} */
