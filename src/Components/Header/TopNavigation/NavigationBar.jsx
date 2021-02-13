@@ -90,7 +90,7 @@ export const NavigationBar = () => {
               <Nav.Link className="secondnav" href="/CSEBTECH">
                 COURSES
               </Nav.Link>
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/Department">
                 DEPARTMENT
               </Nav.Link>
               <Nav.Link className="secondnav" href="#">

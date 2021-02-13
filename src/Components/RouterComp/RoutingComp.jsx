@@ -13,6 +13,7 @@ import { TopBody } from "../BodyContent/TopBody";
 import { FooterContent } from "../Footer/FooterContent";
 import RightNevigation from "../AboutUs/C-RightNevigation/RightNevigation";
 import { RDCell } from "../R&D-Cell/RDCell";
+import { Department } from "../Department/Department";
 
 export const RoutingComp = () => {
   return (
@@ -32,6 +33,9 @@ export const RoutingComp = () => {
           </Route>
           <Route path="/R&DCell">
             <RDCell />
+          </Route>
+          <Route path="/Department">
+            <Department />
           </Route>
           <Route path="/">
             <TopBody />
