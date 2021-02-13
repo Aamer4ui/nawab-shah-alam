@@ -1,0 +1,25 @@
+.sidebars {
+    margin-top: 5%;
+    margin-right: 25%;
+    /* float: right; */
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px black;
+    background-color: rgba(38, 44, 94, 0.5);
+  }
+  /* .sidebars2{
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px black;
+    background-color: rgba(54, 58, 94, 0.5);
+  } */
+  /* .hello{
+    margin-right: 500px;
+    flex-direction: flex-start;
+  }
+  .hello2{
+    
+    flex-direction: flex-end;
+  } */

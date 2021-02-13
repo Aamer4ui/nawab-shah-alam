@@ -1,0 +1,16 @@
+/* .main-header--image{
+    width:300px;
+    border-radius: 2rem;
+    margin-right: 10px;
+} */
+.main{
+    width:280px;
+    margin-right: 10px;
+    margin-top: 15px;
+    /* border-radius: 3rem; */
+}
+.main1{
+    margin-top: 10px;
+    width: 280px;
+    height: 370px;
+}
