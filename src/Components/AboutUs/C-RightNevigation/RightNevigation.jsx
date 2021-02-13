@@ -5,7 +5,7 @@ import "./RightNevigation.css";
 
 const RightNevigation = () => {
   return (
-    <div>
+    <div className="total-content">
       <div className="sidebar">
         <ListGroup>
           <ListGroup.Item className="anchor" action href="/Mainbody">
@@ -61,7 +61,7 @@ const RightNevigation = () => {
           </ListGroup.Item>
         </ListGroup>
       </div>
-      {/* <AbMainBody /> */}
+      <AbMainBody />
     </div>
   );
 };

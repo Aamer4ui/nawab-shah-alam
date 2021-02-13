@@ -7,7 +7,7 @@ const AbMainBody = () => {
   return (
     // about us page starts from here
 
-    <div className="main">
+    <div className="main-content">
       <div className="tittle">
         <h2>Nawab Shah Alam Khan College Of Engineering and Technology</h2>
       </div>

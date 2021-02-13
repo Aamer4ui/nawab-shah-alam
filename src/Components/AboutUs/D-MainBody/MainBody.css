@@ -3,13 +3,14 @@
   font-size: 17px;
   font-family: Ubuntu;
 } */
-.main {
+.main-content{
   margin: 0;
   padding: 0;
   text-align: justify;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   margin-top: 10px;
   /* float: right; */
+  /* width: 1000px; */
 }
 .tittle {
   /* background-color: #283747; */

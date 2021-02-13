@@ -16,6 +16,7 @@ import { RDCell } from "../R&D-Cell/RDCell";
 import { Department } from "../Department/Department";
 import { SideBar } from "../Gallery/SideBar";
 import { StudentProfForm } from "../ExaminationCell/StudentProfForm/StudentProfForm";
+import { AdmissinForm1 } from "../Admission/AdmissinForm1";
 
 export const RoutingComp = () => {
   return (
@@ -44,6 +45,9 @@ export const RoutingComp = () => {
           </Route>
           <Route path="/Examination">
             <StudentProfForm />
+          </Route>
+          <Route path="/Admission">
+            <AdmissinForm1/>
           </Route>
           <Route path="/">
             <TopBody />

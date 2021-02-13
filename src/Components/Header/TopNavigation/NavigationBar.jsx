@@ -93,7 +93,7 @@ export const NavigationBar = () => {
               <Nav.Link className="secondnav" href="/Department">
                 DEPARTMENT
               </Nav.Link>
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/Admission">
                 ADMISSIONS
               </Nav.Link>
               <Nav.Link className="secondnav" href="/AboutPlacement">
