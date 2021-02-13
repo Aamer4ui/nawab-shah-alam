@@ -1,9 +1,19 @@
 
-
 .carasoul{
- margin-right: 0;
+ /* margin-right: 0; */
   margin-left: 5rem;
-  margin-top: 6rem;
-height: 500px;
-
+  margin-top: 2rem;
+  height: 500px;
+}
+.Card_content{
+  margin: 10px;
+}
+.eventitem{
+  background-color: #283747;
+}
+.event-link{
+  color: white;
+}
+.event-link:hover{
+  color: orangered;
 }

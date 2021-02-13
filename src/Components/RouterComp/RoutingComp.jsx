@@ -18,6 +18,7 @@ import { SideBar } from "../Gallery/SideBar";
 import { StudentProfForm } from "../ExaminationCell/StudentProfForm/StudentProfForm";
 import { AdmissinForm1 } from "../Admission/AdmissinForm1";
 import { Contacts } from "../Contact/Contacts";
+import EventHome from "../EventContent/EventHome";
 
 export const RoutingComp = () => {
   return (
@@ -52,6 +53,9 @@ export const RoutingComp = () => {
           </Route>
           <Route path="/ContactUs">
             <Contacts/>
+          </Route>
+          <Route path="/Events">
+            <EventHome/>
           </Route>
           <Route path="/">
             <TopBody />
