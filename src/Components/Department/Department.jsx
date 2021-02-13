@@ -20,32 +20,44 @@ export const Department = () => {
             </Card.Header>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">B.TECH (CSE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  B.TECH (CSE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">B.TECH (IT)</Card.Link>
+                <Card.Link className="course" href="#">
+                  B.TECH (IT)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">B.TECH (CIVIL)</Card.Link>
+                <Card.Link className="course" href="#">
+                  B.TECH (CIVIL)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">B.TECH (MECH)</Card.Link>
+                <Card.Link className="course" href="#">
+                  B.TECH (MECH)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">B.TECH (ECE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  B.TECH (ECE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">B.TECH (EEE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  B.TECH (EEE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             {/* PG DEPARTMENT */}
@@ -60,23 +72,31 @@ export const Department = () => {
             </Card.Header>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">M.TECH (CSE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  M.TECH (CSE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
 
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">M.TECH (CIVIL-SRUCTURE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  M.TECH (CIVIL-SRUCTURE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">M.TECH (MECH-HVAC)</Card.Link>
+                <Card.Link className="course" href="#">
+                  M.TECH (MECH-HVAC)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">M.TECH (ECE-ES)</Card.Link>
+                <Card.Link className="course" href="#">
+                  M.TECH (ECE-ES)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <Card.Header
@@ -90,22 +110,30 @@ export const Department = () => {
             </Card.Header>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">POLYTECHNIC (CIVIL)</Card.Link>
+                <Card.Link className="course" href="#">
+                  POLYTECHNIC (CIVIL)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">POLYTECHNIC (ME)</Card.Link>
+                <Card.Link className="course" href="#">
+                  POLYTECHNIC (ME)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">POLYTECHNIC (ECE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  POLYTECHNIC (ECE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">POLYTECHNIC (EEE)</Card.Link>
+                <Card.Link className="course" href="#">
+                  POLYTECHNIC (EEE)
+                </Card.Link>
               </Card.Body>
             </ListGroup>
 
@@ -120,17 +148,23 @@ export const Department = () => {
             </Card.Header>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">ADDMISSION</Card.Link>
+                <Card.Link className="course" href="#">
+                  ADDMISSION
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">ACCOUNTS</Card.Link>
+                <Card.Link className="course" href="#">
+                  ACCOUNTS
+                </Card.Link>
               </Card.Body>
             </ListGroup>
             <ListGroup variant="flush">
               <Card.Body>
-                <Card.Link href="#">ADMINISTRATIONS</Card.Link>
+                <Card.Link className="course" href="#">
+                  ADMINISTRATIONS
+                </Card.Link>
               </Card.Body>
             </ListGroup>
           </Card>
