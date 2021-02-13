@@ -1,24 +1,29 @@
 .list {
-    width: 20%;
+    
     background-color:#283747;
     border-radius: 5px;
     margin: 25px;
     border: 2px solid black;
 }
 
-.element {
+.examin {
     border-radius: 5px;
     color: black;
     font-weight: bolder;
+    /* width: fit-content; */
+    width: 300px;
+    margin: 8px;
+    float: left;
+    border: 1px solid black;
 }
 
-.element:hover {
-    background: white;
-    color: orangered;
+.element {
+    background: #283747;
+    
 }
 
 .element a {
-    color:  black;
+    color:  white;
 }
 
 .element a:hover {
@@ -33,18 +38,17 @@
     border-radius: 5px;
 }
 
-.pdf {
-    border: 5px solid black;
-    width: 68.5%;
-    height: fit-content;
-    margin-left: 25%;
-    position: absolute;
-    top: 14.5%;
+.studentpdf {
+    border: 1px solid black;
+    width: 800px;
+    /* float: right; */
     border-radius: 10px;
+    margin-right: 50px;
+    
 }
 
-.pdf h1 {
-    padding: 10px;
+.studentreg {
+    /* padding: 10px; */
     background-color: darkgray;
     color: white;
     font-weight: bolder;
