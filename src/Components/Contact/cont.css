@@ -1,0 +1,98 @@
+/* .tab{
+    height: 90px;
+    width: 30rem;
+    padding-left: 200px;
+    padding-right: 240px;
+    padding-top: 100px;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.jj{
+    padding-top: 0px;
+}
+.hi{
+    height: 400px;
+    width: 1000px;
+    padding-left: 7%;
+    padding-top: 4%;
+}
+.kk{
+    width: 40%;
+    text-align: center;
+}
+.pp{
+    width: 60%;
+    
+} */
+
+/* .warapper{
+    
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 3%;
+
+}
+.accordion{
+    width: 70%;
+    
+}
+.item{
+    
+    margin-bottom: 5px;
+    padding: 10px 20px;
+
+
+}
+.title{
+    color: rgb(13, 13, 29);
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+}
+.content{
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+ .content.show{
+     height: auto;
+     max-height: 9999px;
+     transition: all 0 9999pc;
+ }
+ .table{
+     height: 300px ;
+     width: 600px;
+     border: 10px;
+     border-color: black;
+     
+ }
+ .uu{
+    height: 20rem;
+    width: 10rem;
+    border: 5px;
+    color: black;
+ } */
+ .page{
+    text-align: justify;
+     padding-right: 300px;
+     padding-left: 300px;
+     
+ }
+ .lolo{
+    border: 1px solid rgb(70, 11, 11);
+     margin-top: 15px;
+ }
+ .king{
+     height: 200px;
+     width: 300px;
+ }
+ .shoeb:hover{
+  color: blue;
+  transform: scale(1.09rem);   
+ }
+ 
