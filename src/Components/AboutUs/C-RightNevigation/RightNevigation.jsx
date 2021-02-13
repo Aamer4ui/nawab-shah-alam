@@ -6,7 +6,7 @@ import "./RightNevigation.css";
 const RightNevigation = () => {
   return (
     <div>
-      <div className="sidebars">
+      <div className="sidebar">
         <ListGroup>
           <ListGroup.Item className="anchor" action href="/Mainbody">
             ABOUT NSAKCET
@@ -61,7 +61,7 @@ const RightNevigation = () => {
           </ListGroup.Item>
         </ListGroup>
       </div>
-      <AbMainBody />
+      {/* <AbMainBody /> */}
     </div>
   );
 };

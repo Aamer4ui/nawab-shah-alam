@@ -1,11 +1,12 @@
 .sidebars {
     margin-top: 5%;
-    margin-right: 25%;
+    /* margin-right: 25%; */
     /* float: right; */
     font-size: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 9px black;
-    background-color: rgba(38, 44, 94, 0.5);
+    background-color: #283747;
+    width: 500px;
   }
   /* .sidebars2{
     margin-left: 25%;

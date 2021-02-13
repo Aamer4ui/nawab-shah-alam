@@ -15,6 +15,7 @@ import RightNevigation from "../AboutUs/C-RightNevigation/RightNevigation";
 import { RDCell } from "../R&D-Cell/RDCell";
 import { Department } from "../Department/Department";
 import { SideBar } from "../Gallery/SideBar";
+import { StudentProfForm } from "../ExaminationCell/StudentProfForm/StudentProfForm";
 
 export const RoutingComp = () => {
   return (
@@ -40,6 +41,9 @@ export const RoutingComp = () => {
           </Route>
           <Route path="/Gallery">
             <SideBar />
+          </Route>
+          <Route path="/Examination">
+            <StudentProfForm />
           </Route>
           <Route path="/">
             <TopBody />

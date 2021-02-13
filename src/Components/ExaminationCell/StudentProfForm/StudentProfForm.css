@@ -1,0 +1,51 @@
+.list {
+    width: 20%;
+    background-color:#283747;
+    border-radius: 5px;
+    margin: 25px;
+    border: 2px solid black;
+}
+
+.element {
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+}
+
+.element:hover {
+    background: white;
+    color: orangered;
+}
+
+.element a {
+    color:  black;
+}
+
+.element a:hover {
+    text-decoration: none;
+    color:orangered;
+}
+
+.heading-cell{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pdf {
+    border: 5px solid black;
+    width: 68.5%;
+    height: fit-content;
+    margin-left: 25%;
+    position: absolute;
+    top: 14.5%;
+    border-radius: 10px;
+}
+
+.pdf h1 {
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    font-weight: bolder;
+}

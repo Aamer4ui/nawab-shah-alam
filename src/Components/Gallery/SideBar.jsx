@@ -70,73 +70,74 @@ export const SideBar = () => {
           <ListGroup.Item action href="#">
             Graduation Day-2017
           </ListGroup.Item>
+
+          <ListGroup.Item action href="#">
+            College Campus
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Oreintation Program-2017
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Management At NSAKCET
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Inspection AICTE,JNTU & SBTET
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Meja Job Fair 2018
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Techno Vision 2018
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            JNTU Inspection 2018
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            SBTET Inspection 2018
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Two Days Workshop on Linux
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Oreintation Program 2018
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Yoga Session
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Appreciations
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Projectors
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Lecture Capturing System
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            MNT-LAB-LIB
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Competative Examination
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Career Counsiling
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Remedial coaching
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Language Lab
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Bridge Course
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            College Events
+          </ListGroup.Item>
+          <ListGroup.Item action href="#">
+            Winrar
+          </ListGroup.Item>
         </ListGroup>
-        <ListGroup.Item action href="#">
-          College Campus
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Oreintation Program-2017
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Management At NSAKCET
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Inspection AICTE,JNTU & SBTET
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Meja Job Fair 2018
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Techno Vision 2018
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          JNTU Inspection 2018
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          SBTET Inspection 2018
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Two Days Workshop on Linux
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Oreintation Program 2018
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Yoga Session
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Appreciations
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Projectors
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Lecture Capturing System
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          MNT-LAB-LIB
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Competative Examination
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Career Counsiling
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Remedial coaching
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Language Lab
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Bridge Course
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          College Events
-        </ListGroup.Item>
-        <ListGroup.Item action href="#">
-          Winrar
-        </ListGroup.Item>
 
         <Switch>
           <Route path="/photo">

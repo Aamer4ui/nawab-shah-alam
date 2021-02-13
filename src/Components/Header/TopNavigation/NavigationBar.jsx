@@ -108,7 +108,7 @@ export const NavigationBar = () => {
               <Nav.Link className="secondnav" href="/Gallery">
                 GALLERY
               </Nav.Link>
-              <Nav.Link className="secondnav" href="#">
+              <Nav.Link className="secondnav" href="/Examination">
                 EXAMINATION CELL
               </Nav.Link>
               <Nav.Link className="secondnav" href="/R&DCell">
