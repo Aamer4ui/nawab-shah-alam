@@ -17,6 +17,9 @@ import { Department } from "../Department/Department";
 import { SideBar } from "../Gallery/SideBar";
 import { StudentProfForm } from "../ExaminationCell/StudentProfForm/StudentProfForm";
 import { AdmissinForm1 } from "../Admission/AdmissinForm1";
+import { AdmissinForm2 } from "../Admission/AdmissinForm2";
+import { AdmissinForm3 } from "../Admission/AdmissinForm3";
+import { AdmissinForm4 } from "../Admission/AdmissinForm4";
 import { Contacts } from "../Contact/Contacts";
 import EventHome from "../EventContent/EventHome";
 
@@ -48,14 +51,25 @@ export const RoutingComp = () => {
           <Route path="/Examination">
             <StudentProfForm />
           </Route>
+          {/* ---------------------Nested Routing------------------ */}
           <Route path="/Admission">
-            <AdmissinForm1/>
+            <AdmissinForm1 />
           </Route>
+          <Route path="/AdmissinForm2">
+            <AdmissinForm2 />
+          </Route>
+          <Route path="/AdmissinForm3">
+            <AdmissinForm3 />
+          </Route>
+          <Route path="/AdmissinForm4">
+            <AdmissinForm4 />
+          </Route>
+          {/* ---------------Ended------------------------ */}
           <Route path="/ContactUs">
-            <Contacts/>
+            <Contacts />
           </Route>
           <Route path="/Events">
-            <EventHome/>
+            <EventHome />
           </Route>
           <Route path="/">
             <TopBody />
