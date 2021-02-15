@@ -22,6 +22,8 @@ import { AdmissinForm3 } from "../Admission/AdmissinForm3";
 import { AdmissinForm4 } from "../Admission/AdmissinForm4";
 import { Contacts } from "../Contact/Contacts";
 import EventHome from "../EventContent/EventHome";
+import HC from "../AboutUs/Linkpages/A-HC/HC";
+// import HS from "../AboutUs/Linkpages/B-HS/HS";
 
 export const RoutingComp = () => {
   return (
@@ -39,6 +41,12 @@ export const RoutingComp = () => {
           <Route path="/about">
             <RightNevigation />
           </Route>
+          <Route path="/HC">
+            <HC />
+          </Route>
+          {/* <Route path="/HS">
+            <HS />
+          </Route> */}
           <Route path="/R&DCell">
             <RDCell />
           </Route>
